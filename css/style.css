@@ -1,0 +1,299 @@
+
+.container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 14px;
+    color: #5863F8;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.s-1 {
+    padding-top: 54px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 200;
+    margin-bottom: 54px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    height: 290px;
+}
+
+textarea, input {
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+    outline: none;
+    caret-color: gray;
+    padding: 20px;
+}
+
+textarea {
+    height: 100%;
+    max-width: 720px;
+    width: 100%;
+    resize: none;
+    margin-right: 15px;
+}
+
+input, button {
+    height: 60px;
+    width: 100%;
+}
+
+textarea::placeholder , input::placeholder {
+    color: #CECECE;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    border: none;
+    background-color: #5863F8;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cards {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 72px;
+}
+
+.card1 {
+    width: 180px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    
+}  
+
+.back {
+position: absolute;
+    left: 60px;
+    top:0px    
+}
+
+.icon {
+    position: absolute;
+    left: 80px;
+    top: 23px;
+}
+
+.card1 h3 {
+    position: absolute;
+    left: 67px;
+    bottom: 43px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section p {
+   
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+    font-size: 14px;
+    color: #B1B1B1;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* meore qardi mindoda sxvanairad gameketebina tu gamovidoda */
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 180px;
+    height: 150px;
+    position: relative;
+   
+}
+
+.phone {
+    position: absolute;
+    left: 80px;
+    top: 22.2px;
+}
+
+h5 {
+    position: absolute;
+    left: 70px;
+    bottom: 40px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.p1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.icon2 {
+    position: absolute;
+    left: 81.2px;
+    top: 22px;
+}
+
+.card1 h6 {
+    position: absolute;
+    left: 57px;
+    bottom: 43px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.p3 {
+    left: 2px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+section h1 {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5863F8;
+}
+
+.sech2 {
+    margin-bottom: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.photos {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #121212;
+}
+
+footer {
+    padding-top: 90px;
+    padding-bottom: 107px;
+    
+}
+
+.mainfooter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot1 {
+    width: 260px;
+    height: 191px;
+    margin-right: 200px;
+}
+
+.foot1 h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.foot1 p {
+    font-size: 11px;
+    color: #B1B1B1;
+    line-height: 19px;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    margin-bottom: 25px;
+
+}
+
+.footimg1, .footimg2 {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.foot2 {
+    max-width: 90px;
+    width: 100%;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 94px;
+}
+
+.foot2 h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foot2 a {
+    font-size: 14px;
+    color: #5863F8;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foot3 {
+    width: 189px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot3 p {
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    
+
+}
+
+.foot3 a {
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foot3 h3 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+.foot3 img {
+    margin-right: 14px;
+}

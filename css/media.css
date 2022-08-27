@@ -1,0 +1,127 @@
+@media (max-width: 1130px) {
+    .container {
+        width: 95%;
+    }
+
+
+    /* vamateb axali divis zomebs */
+
+    .img1 {
+        /* width: 355px; */
+    }
+    .photos {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .img1 {
+        margin-bottom: 20px;
+    }
+
+    .photos :last-child {
+        margin-bottom: 0px;
+    }
+  
+
+
+    .br2 {
+        display: none;
+    }
+       
+}
+
+
+@media (max-width: 850px) {
+    form {
+        flex-direction: column;
+        height: auto;
+    
+    }
+    .br {
+        display: none;
+    }
+
+    textarea {
+        margin-right: 0px;
+        margin-bottom: 15px;
+        height: 200px;
+        max-width: none;
+    }
+
+    .input-wrapper {
+        max-width: none;
+    }
+    input {
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media (max-width:568px) {
+    .cards {
+        flex-direction: column;align-items: center;
+    }
+.cards :nth-child(1) {
+    margin-bottom: 20px;
+}
+.cards :nth-child(2) {
+    margin-bottom: 20px;
+}
+    
+    
+}
+@media (max-width:1270px) {
+    .photos {
+        width: 95%;
+    }
+}
+
+
+@media (max-width:1080px) {
+    .foot2 {
+        margin-right: 30px;
+    }
+
+    .foot1 {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 762px) {
+    .mainfooter {
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .foot1, .foot2 {
+        margin-right: 0px;
+    }
+} */
+
+@media (max-width: 563px) {
+    .mainfooter {
+        flex-direction: column;
+    }
+    
+    .foot1, .foot2 {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .foot1 h1 {
+        text-align: center;
+    }
+    .foot1 p {
+        text-align: center;
+    }
+
+    .footimg1 {
+        margin-left: 58px;
+    }
+
+    .foot3 h3 {
+        text-align: center;
+    }
+}
